@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Button">
+    <Position X="0.5" Y="2.5" Width="3.25" />
+    <AssociationLine Name="_interactable" Type="InteractableRect" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.854" Y="6.108" />
+        <Point X="1.854" Y="6.483" />
+        <Point X="2.896" Y="6.483" />
+        <Point X="2.896" Y="7.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.206" Y="0.12" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AERAAAAAAAAAAkAAAAAAAQAAAAAAAAiAGAAAAAEAgAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_interactable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GUIWidget">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUIWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractableRect">
+    <Position X="1.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAABAAAACAEQAAAAAAABAAAABA=</HashCode>
+      <FileName>InteractableRect.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Particle">
+    <Position X="14.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAQCAAAIIAAgAAAAAgAAAAAAAAAAAAAAAggQBAACA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleEditorGUI">
+    <Position X="7" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCAAAAAAAAAiAAAAAQAAAQAAigQQBAAAAAAAAAQAA=</HashCode>
+      <FileName>ParticleEditorGUI.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_emitter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ParticleEmitter">
+    <Position X="10.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BZQCBAJBAwAECoACECAEAAAwAABACMAAABpAAhAAAAA=</HashCode>
+      <FileName>ParticleEmitter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_particles" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ParticleEmitterFactory">
+    <Position X="14" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAARAAAACAAAAIAABAwQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleEmitterFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slider&lt;T&gt;">
+    <Position X="4" Y="2.5" Width="2.25" />
+    <AssociationLine Name="_interactable" Type="InteractableRect" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.938" Y="7.069" />
+        <Point X="4.938" Y="7.25" />
+        <Point X="2.896" Y="7.25" />
+        <Point X="2.896" Y="7.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.216" Y="0.131" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAA0EEAAAAAAAAAACAEAgEGABCAAAARAA=</HashCode>
+      <FileName>Slider.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_interactable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Window">
+    <Position X="6.5" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAghAAkAAAAAAAAAAEAAAAAAAAQCCAABAAQg=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="InteractableState">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InteractableRect.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
